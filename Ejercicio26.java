@@ -15,10 +15,10 @@ public class Ejercicio26 {
             }
             System.out.println();
         }
-        for (int i = 1; i<=randwidth; i++) {
+        for (int i = 1; i<=randwidth-1; i++) {
             System.out.print("*");
         } System.out.print(" ");
-        for (int i = 1; i<=width-randwidth-1; i++) {
+        for (int i = 1; i<=width-randwidth; i++) {
             System.out.print("*"); }
         System.out.println();
         for (int i = 1; i<=height-randheight; i++) {
